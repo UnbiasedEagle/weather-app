@@ -7,7 +7,7 @@ form.addEventListener('submit', (e) => {
     return;
   }
   document.querySelector('.loader').textContent = 'Loading...';
-  fetch(`http://localhost:5000/weather?location=${city}`)
+  fetch(`/weather?location=${city}`)
     .then((res) => {
       return res.json();
     })
