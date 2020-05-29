@@ -63,7 +63,7 @@ button:hover {
 }
 @media (max-width: 768px) {
   .weather-content {
-    width: 100vw;
+    min-width: 70%;
   }
   button {
     margin-top: 1rem;
