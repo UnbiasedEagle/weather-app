@@ -61,3 +61,11 @@ button:hover {
   padding: 2rem;
   margin-top: 1rem;
 }
+@media (max-width: 768px) {
+  .weather-content {
+    width: 100vw;
+  }
+  button {
+    margin-top: 1rem;
+  }
+}
