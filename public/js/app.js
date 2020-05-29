@@ -21,9 +21,9 @@ form.addEventListener('submit', (e) => {
         weatherContent.style.display = 'block';
         weatherContent.innerHTML = `
                 <h2>Weather Condition in ${city}</h2>
-                <h3>Feels Like: ${data.body.feels_like}</h3>
-                <h3>Max Temp: ${data.body.temp_max}</h3>
-                <h3>Min Temp: ${data.body.temp_min}</h3>
+                <h3>Feels Like: ${data.body.feels_like}&deg;</h3>
+                <h3>Max Temp: ${data.body.temp_max}&deg;</h3>
+                <h3>Min Temp: ${data.body.temp_min}&deg;</h3>
                 <h3>Description: ${data.body.desc}</h3>
           `;
       }
